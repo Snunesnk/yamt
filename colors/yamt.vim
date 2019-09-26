@@ -23,20 +23,24 @@ if version > 580
 endif
 let g:colors_name="molokai"
 
-     hi Normal       ctermfg=253 ctermbg=235
+    " hi Normal       ctermfg=254 ctermbg=235   cterm=none
      hi CursorLine               ctermbg=238   cterm=none
      hi CursorLineNr ctermfg=248               cterm=none
 
    " Here is all the values I have modified
-   hi Delimiter       ctermfg=darkgrey
-   hi cOperator        ctermfg=134
+   hi normal		  ctermfg=254 ctermbg=235 cterm=NONE
+   hi NonText         ctermfg=88  ctermbg=NONE cterm=NONE
+   hi Delimiter       ctermfg=242
+   hi cOperator       ctermfg=135
    hi Visual                      ctermbg=240
    hi Type            ctermfg=202         cterm=none
-   hi String          ctermfg=darkgreen
-   hi Character       ctermfg=214
-   hi Number          ctermfg=214
-   hi Function		  ctermfg=lightblue
+   hi String          ctermfg=76
+   hi Character       ctermfg=81
+   hi Number          ctermfg=81
+   hi Function		  ctermfg=78
    hi Comment         ctermfg=246
+   hi LineNr          ctermfg=250 ctermbg=236
+   hi SpecialChar     ctermfg=124               cterm=bold
 
    " And here the things I left unchanged
    hi Boolean         ctermfg=135
@@ -85,7 +89,6 @@ let g:colors_name="molokai"
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=245
-   hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
    if has("spell")
@@ -113,8 +116,6 @@ let g:colors_name="molokai"
 
    hi CursorColumn                ctermbg=240
    hi ColorColumn                 ctermbg=240
-   hi LineNr          ctermfg=250 ctermbg=236
-   hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
    
