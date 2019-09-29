@@ -30,17 +30,18 @@ let g:colors_name="molokai"
    " Here is all the values I have modified
    hi normal		  ctermfg=254 ctermbg=235 cterm=NONE
    hi NonText         ctermfg=88  ctermbg=NONE cterm=NONE
-   hi Delimiter       ctermfg=242
-   hi cOperator       ctermfg=135
+   hi Delimiter       ctermfg=103
+   hi cOperator       ctermfg=141
    hi Visual                      ctermbg=240
-   hi Type            ctermfg=202         cterm=none
-   hi String          ctermfg=76
-   hi Character       ctermfg=81
-   hi Number          ctermfg=81
-   hi Function		  ctermfg=78
+   hi Type            ctermfg=208         cterm=none
+   hi String          ctermfg=112
+   hi Character       ctermfg=135
+   hi Number          ctermfg=135
+   hi Function		  ctermfg=117
    hi Comment         ctermfg=246
    hi LineNr          ctermfg=250 ctermbg=236
-   hi SpecialChar     ctermfg=124               cterm=bold
+   hi SpecialChar     ctermfg=161               cterm=bold
+   hi Arrow			  ctermfg=59
 
    " And here the things I left unchanged
    hi Boolean         ctermfg=135
